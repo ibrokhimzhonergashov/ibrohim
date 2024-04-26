@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+ 
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+    text-decoration: none; 
+    color: inherit; 
+    list-style: none; 
+} 
+ 
+.container { 
+    width: 90%; 
+    margin: 0 auto; 
+} 
+ 
+nav { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 24px 0; 
+} 
+ 
+nav ul { 
+    display: flex; 
+    align-items: center; 
+    gap: 32px; 
+} 
+ 
+nav ul li { 
+    font-weight: 700; 
+    font-size: 14px; 
+    line-height: 21px; 
+    letter-spacing: 2px; 
+}
